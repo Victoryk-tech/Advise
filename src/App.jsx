@@ -19,8 +19,8 @@ export default function App() {
     getAnAdvice();
   }, []);
   return (
-    <div className="flex flex-col items-center justify-center my-auto bg-[#1b1f24]  md:P-6 w-full h-auto pb-[15rem]">
-      <div className="flex flex-col text-center items-center justify-cente text-white mt-[10rem] md:mt-[15rem] gap-3 w-[90%] md:w-[50%] p-5 border-none outline-none shadow-[0_0_5px_#13bbff] bg-[#2d343f]rounded-[8px]">
+    <div className="flex flex-col items-center justify-center my-auto bg-[#1b1f24]  md:px-6 pt-[15rem] pb-[20rem] w-full h-auto">
+      <div className="flex flex-col text-center items-center justify-cente text-white gap-3 w-[90%] md:w-[50%] p-5 border-none outline-none shadow-[0_0_5px_#13bbff] bg-[#2d343f]rounded-[8px]">
         <p className="font-bold">Advice #{advice.id}</p>
         <h1 className="text-[1rem] text-center w-full md:w-[80%]">
           {advice.advice}
